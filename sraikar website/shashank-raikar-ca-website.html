@@ -1,0 +1,1759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashank Raikar & Co. - Expert CA Services in Margao, Goa</title>
+    <meta name="description" content="Professional GST & Income Tax compliance services in Margao, Goa. 100+ clients, 10+ years experience. CA Shashank K.S. Raikar & team.">
+   <meta name="author" content="Shashank Raikar & Co.">
+<meta property="og:title" content="Shashank Raikar & Co. Chartered Accountants">
+<meta property="og:description" content="GST, Income Tax and Compliance Services in Goa">
+<meta property="og:type" content="website">
+
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            /* Luxurious Color Palette */
+            --navy-dark: #0A1828;
+            --navy-main: #1A2F4F;
+            --navy-light: #2C4461;
+            --charcoal: #3D3D3D;
+            --teal: #2C7873;
+            --teal-light: #3A9691;
+            --cream: #F8F6F4;
+            --white: #FFFFFF;
+            --gold-accent: #B8956A;
+            
+            /* Typography */
+            --font-serif: 'Cormorant Garamond', serif;
+            --font-sans: 'Work Sans', sans-serif;
+            
+            /* Spacing */
+            --spacing-xs: 0.5rem;
+            --spacing-sm: 1rem;
+            --spacing-md: 2rem;
+            --spacing-lg: 4rem;
+            --spacing-xl: 6rem;
+            
+            /* Effects */
+            --shadow-soft: 0 4px 20px rgba(10, 24, 40, 0.08);
+            --shadow-medium: 0 8px 30px rgba(10, 24, 40, 0.12);
+            --shadow-strong: 0 12px 40px rgba(10, 24, 40, 0.18);
+            --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: var(--font-sans);
+            color: var(--charcoal);
+            background: var(--white);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+        
+        /* Navigation */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(44, 120, 115, 0.1);
+            transition: var(--transition);
+        }
+        
+        .navbar.scrolled {
+            box-shadow: var(--shadow-soft);
+        }
+        
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.2rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .logo-img {
+            height: 50px;
+            width: auto;
+            transition: var(--transition);
+        }
+        
+        .logo-text {
+            font-family: var(--font-serif);
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--navy-dark);
+            line-height: 1.2;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+            align-items: center;
+        }
+        
+        .nav-links a {
+            color: var(--navy-main);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            letter-spacing: 0.3px;
+            position: relative;
+            transition: var(--transition);
+        }
+        
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--teal);
+            transition: var(--transition);
+        }
+        
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+        
+        .nav-links a:hover {
+            color: var(--teal);
+        }
+        
+        .mobile-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+        }
+        
+        .mobile-toggle span {
+            width: 25px;
+            height: 3px;
+            background: var(--navy-dark);
+            transition: var(--transition);
+        }
+        
+        /* Page Sections */
+        .page {
+            display: none;
+            padding-top: 80px;
+            min-height: 100vh;
+            animation: fadeIn 0.6s ease-out;
+        }
+        
+        .page.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Hero Section */
+        .hero {
+            position: relative;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy-main) 100%);
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://images.unsplash.com/photo-1664575602554-2087b04935a5?w=1600&q=80') center/cover;
+            opacity: 0.12;
+            animation: slowZoom 20s ease-in-out infinite alternate;
+        }
+        
+        @keyframes slowZoom {
+            from { transform: scale(1); }
+            to { transform: scale(1.05); }
+        }
+        
+        .hero-pattern {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(135deg, transparent 0%, rgba(44, 120, 115, 0.08) 100%);
+            clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
+        }
+        
+        .hero-content {
+            position: relative;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            z-index: 2;
+        }
+        
+        .hero-badge {
+            display: inline-block;
+            padding: 0.5rem 1.5rem;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50px;
+            color: var(--white);
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+            animation: slideDown 0.8s ease-out 0.2s both;
+        }
+        
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .hero h1 {
+            font-family: var(--font-serif);
+            font-size: clamp(2.5rem, 5vw, 4.5rem);
+            font-weight: 600;
+            color: var(--white);
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            max-width: 900px;
+            animation: slideDown 0.8s ease-out 0.4s both;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 3rem;
+            max-width: 700px;
+            font-weight: 300;
+            animation: slideDown 0.8s ease-out 0.6s both;
+        }
+        
+        .cta-group {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            animation: slideDown 0.8s ease-out 0.8s both;
+        }
+        
+        .btn {
+            padding: 1rem 2.5rem;
+            border: none;
+            border-radius: 4px;
+            font-family: var(--font-sans);
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            letter-spacing: 0.5px;
+        }
+        
+        .btn-primary {
+            background: var(--teal);
+            color: var(--white);
+            box-shadow: 0 4px 15px rgba(44, 120, 115, 0.3);
+        }
+        
+        .btn-primary:hover {
+            background: var(--teal-light);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(44, 120, 115, 0.4);
+        }
+        
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.15);
+            color: var(--white);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(10px);
+        }
+        
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-2px);
+        }
+        
+        /* Stats Bar */
+        .stats-bar {
+            background: var(--white);
+            padding: 3rem 2rem;
+            margin-top: -60px;
+            position: relative;
+            z-index: 3;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 12px;
+            box-shadow: var(--shadow-medium);
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+        }
+        
+        .stat-item:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 20%;
+            height: 60%;
+            width: 1px;
+            background: linear-gradient(to bottom, transparent, var(--teal), transparent);
+        }
+        
+        .stat-number {
+            font-family: var(--font-serif);
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--navy-dark);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-label {
+            color: var(--charcoal);
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+        
+        /* Section Styles */
+        .section {
+            padding: var(--spacing-xl) 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: var(--spacing-lg);
+        }
+        
+        .section-badge {
+            display: inline-block;
+            padding: 0.4rem 1.2rem;
+            background: rgba(44, 120, 115, 0.1);
+            color: var(--teal);
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+        
+        .section-title {
+            font-family: var(--font-serif);
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            font-weight: 600;
+            color: var(--navy-dark);
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+        
+        .section-subtitle {
+            font-size: 1.15rem;
+            color: var(--charcoal);
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+        
+        /* Services Grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .service-card {
+            background: var(--white);
+            border-radius: 8px;
+            padding: 2.5rem;
+            box-shadow: var(--shadow-soft);
+            transition: var(--transition);
+            border: 1px solid rgba(44, 120, 115, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--teal), var(--teal-light));
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: var(--transition);
+        }
+        
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-strong);
+        }
+        
+        .service-card:hover::before {
+            transform: scaleX(1);
+        }
+        
+        .service-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--teal), var(--teal-light));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+        }
+        
+        .service-card h3 {
+            font-family: var(--font-serif);
+            font-size: 1.5rem;
+            color: var(--navy-dark);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        
+        .service-card p {
+            color: var(--charcoal);
+            margin-bottom: 1.5rem;
+            line-height: 1.7;
+        }
+        
+        .service-features {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+        
+        .service-features li {
+            padding: 0.5rem 0;
+            color: var(--charcoal);
+            display: flex;
+            align-items: start;
+            gap: 0.5rem;
+        }
+        
+        .service-features li::before {
+            content: '✓';
+            color: var(--teal);
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
+        /* Why Us Section */
+        .pillars-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .pillar-card {
+            text-align: center;
+            padding: 2rem;
+            background: var(--cream);
+            border-radius: 8px;
+            transition: var(--transition);
+        }
+        
+        .pillar-card:hover {
+            background: var(--white);
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .pillar-number {
+            font-family: var(--font-serif);
+            font-size: 4rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--teal), var(--navy-main));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+        
+        .pillar-card h3 {
+            font-size: 1.25rem;
+            color: var(--navy-dark);
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        
+        .pillar-card p {
+            color: var(--charcoal);
+            font-size: 0.95rem;
+        }
+        
+        /* Testimonials */
+        .testimonials-container {
+            max-width: 1000px;
+            margin: 3rem auto;
+            position: relative;
+        }
+        
+        .testimonial-card {
+            background: var(--white);
+            padding: 3rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow-medium);
+            margin-bottom: 2rem;
+            border-left: 4px solid var(--teal);
+        }
+        
+        .testimonial-quote {
+            font-family: var(--font-serif);
+            font-size: 1.3rem;
+            color: var(--navy-dark);
+            line-height: 1.8;
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .author-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--teal), var(--teal-light));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        
+        .author-info h4 {
+            color: var(--navy-dark);
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        
+        .author-info p {
+            color: var(--charcoal);
+            font-size: 0.9rem;
+        }
+        
+        /* About Page */
+        .about-hero {
+            background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy-main) 100%);
+            padding: 5rem 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .about-hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(44, 120, 115, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+        
+        .profile-section {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 4rem;
+            align-items: center;
+            max-width: 1200px;
+            margin: -80px auto 0;
+            position: relative;
+            background: var(--white);
+            padding: 3rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow-strong);
+        }
+        
+        .profile-image-container {
+            position: relative;
+        }
+        
+        .profile-image {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 8px;
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .profile-badge {
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            background: var(--teal);
+            color: var(--white);
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow-medium);
+            font-weight: 600;
+        }
+        
+        .profile-content h2 {
+            font-family: var(--font-serif);
+            font-size: 2.5rem;
+            color: var(--navy-dark);
+            margin-bottom: 1rem;
+        }
+        
+        .profile-title {
+            color: var(--teal);
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+        
+        .profile-content p {
+            color: var(--charcoal);
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+        
+        /* Team Section */
+        .team-visual {
+            background: var(--cream);
+            padding: 3rem;
+            border-radius: 12px;
+            margin: 3rem 0;
+        }
+        
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .team-member {
+            text-align: center;
+            padding: 2rem;
+            background: var(--white);
+            border-radius: 8px;
+            box-shadow: var(--shadow-soft);
+        }
+        
+        .team-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1rem;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--teal), var(--teal-light));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: var(--white);
+        }
+        
+        .team-member h4 {
+            color: var(--navy-dark);
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        
+        .team-count {
+            color: var(--teal);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        /* Process Section */
+        .process-steps {
+            display: flex;
+            justify-content: space-between;
+            gap: 2rem;
+            margin-top: 3rem;
+            position: relative;
+        }
+        
+        .process-steps::before {
+            content: '';
+            position: absolute;
+            top: 40px;
+            left: 10%;
+            right: 10%;
+            height: 2px;
+            background: linear-gradient(90deg, var(--teal), var(--teal-light));
+            z-index: 0;
+        }
+        
+        .process-step {
+            flex: 1;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .step-number {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1.5rem;
+            border-radius: 50%;
+            background: var(--white);
+            border: 3px solid var(--teal);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-serif);
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--teal);
+            box-shadow: var(--shadow-soft);
+        }
+        
+        .process-step h4 {
+            color: var(--navy-dark);
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        
+        .process-step p {
+            color: var(--charcoal);
+            font-size: 0.9rem;
+        }
+        
+        /* Contact Page */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            margin-top: 3rem;
+        }
+        
+        .contact-form {
+            background: var(--white);
+            padding: 3rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            color: var(--navy-dark);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid rgba(44, 120, 115, 0.2);
+            border-radius: 6px;
+            font-family: var(--font-sans);
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--teal);
+            box-shadow: 0 0 0 3px rgba(44, 120, 115, 0.1);
+        }
+        
+        .form-group textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+        
+        .contact-info-card {
+            background: var(--navy-dark);
+            color: var(--white);
+            padding: 3rem;
+            border-radius: 12px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .contact-info-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -30%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(44, 120, 115, 0.2) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+        
+        .contact-info-card h3 {
+            font-family: var(--font-serif);
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+        
+        .contact-item {
+            margin-bottom: 2rem;
+            position: relative;
+        }
+        
+        .contact-item-label {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        
+        .contact-item-value {
+            font-size: 1.1rem;
+            color: var(--white);
+        }
+        
+        .contact-item-value a {
+            color: var(--white);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .contact-item-value a:hover {
+            color: var(--teal-light);
+        }
+        
+        .map-container {
+            margin-top: 4rem;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--shadow-medium);
+            height: 400px;
+            background: var(--cream);
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--navy-dark);
+            color: var(--white);
+            padding: 4rem 2rem 2rem;
+            margin-top: var(--spacing-xl);
+        }
+        
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+        
+        .footer-logo-section h3 {
+            font-family: var(--font-serif);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .footer-logo-section p {
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 1.5rem;
+            line-height: 1.7;
+        }
+        
+        .footer-links h4 {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+        
+        .footer-links ul {
+            list-style: none;
+        }
+        
+        .footer-links ul li {
+            margin-bottom: 0.8rem;
+        }
+        
+        .footer-links ul li a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .footer-links ul li a:hover {
+            color: var(--teal-light);
+            padding-left: 5px;
+        }
+        
+        .footer-bottom {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+            color: rgba(255, 255, 255, 0.6);
+        }
+        
+        /* Service Detail Cards */
+        .service-detail-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+        
+        .service-detail-card {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 3rem;
+            background: var(--white);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--shadow-medium);
+            transition: var(--transition);
+        }
+        
+        .service-detail-card:hover {
+            box-shadow: var(--shadow-strong);
+        }
+        
+        .service-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .service-detail-content {
+            padding: 3rem 3rem 3rem 0;
+        }
+        
+        .service-detail-content h3 {
+            font-family: var(--font-serif);
+            font-size: 2rem;
+            color: var(--navy-dark);
+            margin-bottom: 1rem;
+        }
+        
+        .service-detail-content p {
+            color: var(--charcoal);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .profile-section {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            
+            .profile-image {
+                margin: 0 auto;
+            }
+            
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-content {
+                grid-template-columns: 1fr 1fr;
+            }
+            
+            .process-steps::before {
+                display: none;
+            }
+            
+            .process-steps {
+                flex-direction: column;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                position: fixed;
+                top: 80px;
+                left: -100%;
+                width: 100%;
+                height: calc(100vh - 80px);
+                background: var(--white);
+                flex-direction: column;
+                padding: 2rem;
+                box-shadow: var(--shadow-medium);
+                transition: var(--transition);
+            }
+            
+            .nav-links.active {
+                left: 0;
+            }
+            
+            .mobile-toggle {
+                display: flex;
+            }
+            
+            .stats-bar {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+            
+            .stat-item:not(:last-child)::after {
+                display: none;
+            }
+            
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .cta-group {
+                flex-direction: column;
+            }
+            
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+            
+            .service-detail-card {
+                grid-template-columns: 1fr;
+            }
+            
+            .service-detail-content {
+                padding: 2rem;
+            }
+        }
+        
+        /* Utility Classes */
+        .text-center {
+            text-align: center;
+        }
+        
+        .mt-4 {
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-container">
+                <img src="images/CA_LOGO_NEW_26.png" alt="CA Logo" class="logo-img">
+                <div class="logo-text">
+                    Shashank Raikar & Co.<br>
+                    <span style="font-size: 0.75rem; font-weight: 400; color: var(--charcoal);">Chartered Accountants</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" data-page="home" class="nav-link active">Home</a></li>
+                <li><a href="#" data-page="about" class="nav-link">About</a></li>
+                <li><a href="#" data-page="services" class="nav-link">Services</a></li>
+                <li><a href="#" data-page="testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#" data-page="contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME PAGE -->
+    <div id="home" class="page active">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-pattern"></div>
+            <div class="hero-content">
+                <div class="hero-badge">ACA Qualified 2022 • 10+ Years Experience</div>
+                <h1>Expert GST & Income Tax Compliance for Your Peace of Mind</h1>
+                <p class="hero-subtitle">CA Shashank K. S. Raikar | 100+ GST Clients | On-Time, Every Time</p>
+                <div class="cta-group">
+                    <a href="#" class="btn btn-primary" data-page="contact">
+                        📅 Book Consultation
+                    </a>
+                    <a href="https://wa.me/918830568196" target="_blank" class="btn btn-secondary">
+                        💬 WhatsApp Now
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat-item">
+                <div class="stat-number">10+</div>
+                <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">100+</div>
+                <div class="stat-label">Active GST Clients</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Expert Team Members</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">₹200Cr+</div>
+                <div class="stat-label">Client Turnover Managed</div>
+            </div>
+        </div>
+
+        <!-- Services Overview -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-badge">Our Expertise</span>
+                <h2 class="section-title">Comprehensive CA Services</h2>
+                <p class="section-subtitle">Professional compliance solutions tailored to your business needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>GST Compliance</h3>
+                    <p>Monthly GSTR-1/3B filings, quarterly returns, and annual reconciliations for 100+ clients across diverse industries.</p>
+                    <a href="#" class="btn btn-primary" data-page="services">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💼</div>
+                    <h3>Income Tax Services</h3>
+                    <p>Individual and business tax returns, TDS compliance, and complete documentation handling with precision.</p>
+                    <a href="#" class="btn btn-primary" data-page="services">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📚</div>
+                    <h3>Bookkeeping & Accounting</h3>
+                    <p>Accurate financial records maintenance ensuring audit-ready books and regulatory compliance.</p>
+                    <a href="#" class="btn btn-primary" data-page="services">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚖️</div>
+                    <h3>Assessments & Appeals</h3>
+                    <p>Expert representation for GST and Income Tax assessments, notices, and appellate proceedings.</p>
+                    <a href="#" class="btn btn-primary" data-page="services">Learn More →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="section" style="background: var(--cream);">
+            <div class="section-header">
+                <span class="section-badge">Why Partner With Us</span>
+                <h2 class="section-title">Built on Trust & Excellence</h2>
+            </div>
+            <div class="pillars-grid">
+                <div class="pillar-card">
+                    <div class="pillar-number">10+</div>
+                    <h3>Years of Experience</h3>
+                    <p>Deep industry knowledge across diverse sectors and business sizes</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="pillar-number">5</div>
+                    <h3>Structured Team</h3>
+                    <p>Dedicated professionals ensuring quality and timely delivery</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="pillar-number">100+</div>
+                    <h3>Active GST Clients</h3>
+                    <p>Proven track record with SMEs, Pvt Ltd companies, and large enterprises</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="pillar-number">🌴</div>
+                    <h3>Goa-Based, India-Focused</h3>
+                    <p>Local expertise with nationwide compliance capabilities</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-badge">Client Success</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">"Shashank and his team have been managing our GST compliance for the past two years. Their attention to detail and proactive approach have saved us from several potential issues. Always on time, always professional."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RS</div>
+                        <div class="author-info">
+                            <h4>Rajesh Sharma</h4>
+                            <p>Managing Director, Tech Solutions Pvt Ltd</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">"Working with CA Shashank Raikar has been a game-changer for our business. His team handles everything from bookkeeping to tax planning with exceptional precision. Highly recommended for any business seeking reliable CA services."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">PM</div>
+                        <div class="author-info">
+                            <h4>Priya Mehta</h4>
+                            <p>Founder, Coastal Exports</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">"As a small business owner, I needed someone I could trust completely with my finances. Shashank's team not only handles all compliance but also provides valuable business insights. Their personal attention makes all the difference."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AK</div>
+                        <div class="author-info">
+                            <h4>Amit Kamat</h4>
+                            <p>Proprietor, Kamat Trading Co.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ABOUT PAGE -->
+    <div id="about" class="page">
+        <section class="about-hero">
+            <div class="section-header">
+                <span class="section-badge" style="background: rgba(255,255,255,0.2); color: white;">Meet Your CA</span>
+                <h1 class="section-title" style="color: white;">CA Shashank K. S. Raikar</h1>
+                <p class="section-subtitle" style="color: rgba(255,255,255,0.9);">Your Trusted Compliance Partner</p>
+            </div>
+        </section>
+
+        <div class="section">
+            <div class="profile-section">
+                <div class="profile-image-container">
+                    <img src="images/PROFILE_PHOTO.jpg" alt="CA Shashank Raikar" class="profile-image">
+                    <div class="profile-badge">ACA 2022</div>
+                </div>
+                <div class="profile-content">
+                    <h2>Precision. Reliability. Excellence.</h2>
+                    <p class="profile-title">Associate Chartered Accountant | 10+ Years Experience | 3 Years in Practice</p>
+                    <p>I'm CA Shashank K. S. Raikar, a practicing Chartered Accountant based in Margao, Goa. After qualifying as an ACA in 2022, I've dedicated my practice to helping businesses achieve seamless compliance and financial clarity.</p>
+                    <p>With over a decade of experience in accounting and taxation, I've developed deep expertise in GST compliance, income tax planning, and financial management. My journey has taken me through various industries, from small family businesses to companies with turnovers exceeding ₹200 crores.</p>
+                    <p>What sets our practice apart is our commitment to personalized service backed by a structured team approach. Every client receives dedicated attention while benefiting from the efficiency of our expert team.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Section -->
+        <section class="section" style="background: var(--cream);">
+            <div class="section-header">
+                <span class="section-badge">Our Team</span>
+                <h2 class="section-title">A Dedicated Team of 5 Professionals</h2>
+                <p class="section-subtitle">Each member brings specialized expertise to serve you better</p>
+            </div>
+            <div class="team-visual">
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="team-icon">👨‍💼</div>
+                        <h4>Senior Accountants</h4>
+                        <p class="team-count">2 Members</p>
+                        <p style="font-size: 0.9rem; color: var(--charcoal); margin-top: 0.5rem;">Audit & Compliance Specialists</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-icon">📊</div>
+                        <h4>Junior Accountants</h4>
+                        <p class="team-count">2 Members</p>
+                        <p style="font-size: 0.9rem; color: var(--charcoal); margin-top: 0.5rem;">GST & Tax Filing Experts</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-icon">📝</div>
+                        <h4>Bookkeeper</h4>
+                        <p class="team-count">1 Member</p>
+                        <p style="font-size: 0.9rem; color: var(--charcoal); margin-top: 0.5rem;">Accounting & Documentation</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-badge">Our Process</span>
+                <h2 class="section-title">How We Work With You</h2>
+                <p class="section-subtitle">A systematic approach ensuring quality and timely delivery</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h4>Consultation</h4>
+                    <p>Understanding your business needs and compliance requirements</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h4>Onboarding</h4>
+                    <p>Setting up systems and collecting necessary documentation</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h4>Processing</h4>
+                    <p>Our team handles all filings, returns, and compliance work</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h4>Review</h4>
+                    <p>Quality checks and validation before submission</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <h4>Confirmation</h4>
+                    <p>Filing confirmation and regular status updates</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- SERVICES PAGE -->
+    <div id="services" class="page">
+        <section class="about-hero">
+            <div class="section-header">
+                <span class="section-badge" style="background: rgba(255,255,255,0.2); color: white;">What We Offer</span>
+                <h1 class="section-title" style="color: white;">Our Services</h1>
+                <p class="section-subtitle" style="color: rgba(255,255,255,0.9);">Comprehensive compliance solutions for every business need</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="service-detail-grid">
+                <div class="service-detail-card">
+                    <img src="https://images.unsplash.com/photo-1554224311-beee4c7f0883?w=600&q=80" alt="GST Compliance" class="service-image">
+                    <div class="service-detail-content">
+                        <h3>📊 GST Compliance</h3>
+                        <p>Comprehensive GST services for 100+ clients across diverse industries. We handle monthly GSTR-1 and GSTR-3B filings, quarterly returns for composition scheme taxpayers, annual GSTR-9 reconciliations, and input tax credit optimization.</p>
+                        <ul class="service-features">
+                            <li>Monthly GSTR-1 and GSTR-3B filing</li>
+                            <li>Quarterly composition scheme returns</li>
+                            <li>Annual GSTR-9 and reconciliation statements</li>
+                            <li>Input Tax Credit optimization and claims</li>
+                            <li>GST registration and amendments</li>
+                            <li>E-way bill compliance</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary" data-page="contact">Get Quote</a>
+                    </div>
+                </div>
+
+                <div class="service-detail-card">
+                    <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=80" alt="Income Tax Services" class="service-image">
+                    <div class="service-detail-content">
+                        <h3>💼 Income Tax Filings</h3>
+                        <p>Expert tax return preparation for individuals, professionals, and businesses. We ensure accurate documentation, tax planning, and timely filing for complete peace of mind.</p>
+                        <ul class="service-features">
+                            <li>Individual and business ITR filing</li>
+                            <li>TDS compliance and quarterly returns</li>
+                            <li>Tax planning and advisory</li>
+                            <li>Advance tax computation and payment</li>
+                            <li>Capital gains calculations</li>
+                            <li>Form 16/16A preparation</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary" data-page="contact">Get Quote</a>
+                    </div>
+                </div>
+
+                <div class="service-detail-card">
+                    <img src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=600&q=80" alt="Bookkeeping Services" class="service-image">
+                    <div class="service-detail-content">
+                        <h3>📚 Bookkeeping & Accounting</h3>
+                        <p>Maintain accurate financial records that are always audit-ready. Our systematic approach ensures your books reflect the true financial position of your business.</p>
+                        <ul class="service-features">
+                            <li>Daily transaction recording</li>
+                            <li>Bank reconciliation</li>
+                            <li>Financial statements preparation</li>
+                            <li>Accounts payable and receivable management</li>
+                            <li>Inventory accounting</li>
+                            <li>MIS reports and dashboards</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary" data-page="contact">Get Quote</a>
+                    </div>
+                </div>
+
+                <div class="service-detail-card">
+                    <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&q=80" alt="Assessments and Appeals" class="service-image">
+                    <div class="service-detail-content">
+                        <h3>⚖️ Assessments & Appeals</h3>
+                        <p>Expert representation for tax assessments, notices, and appeals. We navigate complex proceedings to protect your interests and achieve favorable outcomes.</p>
+                        <ul class="service-features">
+                            <li>GST assessment representation</li>
+                            <li>Income Tax scrutiny handling</li>
+                            <li>Notice response preparation</li>
+                            <li>Appellate proceedings</li>
+                            <li>Penalty mitigation</li>
+                            <li>Settlement commission matters</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary" data-page="contact">Get Quote</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section text-center" style="background: var(--navy-dark); color: white; border-radius: 12px; padding: 4rem 2rem;">
+            <h2 class="section-title" style="color: white; margin-bottom: 1rem;">Ready to Get Started?</h2>
+            <p class="section-subtitle" style="color: rgba(255,255,255,0.9); margin-bottom: 2rem;">Let's discuss how we can help streamline your compliance</p>
+            <div class="cta-group" style="justify-content: center;">
+                <a href="#" class="btn btn-primary" data-page="contact">Book Consultation</a>
+                <a href="https://wa.me/918830568196" target="_blank" class="btn btn-secondary">WhatsApp Now</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- TESTIMONIALS PAGE -->
+    <div id="testimonials" class="page">
+        <section class="about-hero">
+            <div class="section-header">
+                <span class="section-badge" style="background: rgba(255,255,255,0.2); color: white;">Client Success</span>
+                <h1 class="section-title" style="color: white;">What Our Clients Say</h1>
+                <p class="section-subtitle" style="color: rgba(255,255,255,0.9);">Real experiences from businesses we've helped</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+    <p class="testimonial-quote">
+    "Shashank Raikar & Co. has been handling our GST compliances with exceptional professionalism and consistency. Their team ensures timely filing and prompt resolution of all our queries, giving us complete peace of mind."
+    </p>
+    <div class="testimonial-author">
+        <div class="author-avatar">VJ</div>
+        <div class="author-info">
+            <h4>Vikram Jadhav</h4>
+            <p>Accounts Manager, Shinriyo Suvidha Engineers Pvt Ltd</p>
+        </div>
+    </div>
+</div>
+
+<div class="testimonial-card">
+    <p class="testimonial-quote">
+    "We rely on Shashank Raikar & Co. for our VAT compliance, including assessments and appellate matters. Their technical expertise and professional handling of departmental proceedings have been extremely valuable."
+    </p>
+    <div class="testimonial-author">
+        <div class="author-avatar">MS</div>
+        <div class="author-info">
+            <h4>Manjeet Singh</h4>
+            <p>General Manager – Finance, Indospirit Beverages Pvt Ltd</p>
+        </div>
+    </div>
+</div>
+
+<div class="testimonial-card">
+    <p class="testimonial-quote">
+    "Shashank Raikar & Co. successfully assisted us in obtaining a long-pending VAT refund when several professionals could not resolve the matter. Their persistence and expertise ensured a successful outcome."
+    </p>
+    <div class="testimonial-author">
+        <div class="author-avatar">R</div>
+        <div class="author-info">
+            <h4>Rawat</h4>
+            <p>Manager, ELM Enterprises Pvt Ltd</p>
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Client Logos Section -->
+            <div class="section text-center mt-4">
+                <h3 class="section-title" style="font-size: 2rem;">Trusted by 100+ Businesses</h3>
+                <p class="section-subtitle">From SMEs to companies with ₹200Cr+ turnover</p>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-top: 3rem; align-items: center;">
+                    <div style="padding: 2rem; background: var(--cream); border-radius: 8px; font-weight: 600; color: var(--navy-dark);">Pvt Ltd Companies</div>
+                    <div style="padding: 2rem; background: var(--cream); border-radius: 8px; font-weight: 600; color: var(--navy-dark);">SMEs</div>
+                    <div style="padding: 2rem; background: var(--cream); border-radius: 8px; font-weight: 600; color: var(--navy-dark);">Professionals</div>
+                    <div style="padding: 2rem; background: var(--cream); border-radius: 8px; font-weight: 600; color: var(--navy-dark);">Individuals</div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- CONTACT PAGE -->
+    <div id="contact" class="page">
+        <section class="about-hero">
+            <div class="section-header">
+                <span class="section-badge" style="background: rgba(255,255,255,0.2); color: white;">Get In Touch</span>
+                <h1 class="section-title" style="color: white;">Contact Us</h1>
+                <p class="section-subtitle" style="color: rgba(255,255,255,0.9);">Let's discuss how we can help your business</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h3 style="font-family: var(--font-serif); font-size: 2rem; color: var(--navy-dark); margin-bottom: 2rem;">Send us a message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Required</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="gst">GST Compliance</option>
+                                <option value="income-tax">Income Tax Filing</option>
+                                <option value="bookkeeping">Bookkeeping & Accounting</option>
+                                <option value="assessment">Assessments & Appeals</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-card">
+                    <h3>Get in touch</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-item-label">Office</div>
+                        <div class="contact-item-value">
+                            <a href="tel:+919730609972">+91 97306 09972</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item-label">WhatsApp</div>
+                        <div class="contact-item-value">
+                            <a href="https://wa.me/918830568196" target="_blank">+91 88305 68196</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item-label">Email</div>
+                        <div class="contact-item-value">
+                            <a href="mailto:office@sraikar.com">office@sraikar.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item-label">Address</div>
+                        <div class="contact-item-value">
+                            101, Global Crest<br>
+                            Behind Victor Hospital, Malbhat<br>
+                            Margao, Goa 403601
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item-label">Office Hours</div>
+                        <div class="contact-item-value">
+                            Monday - Saturday<br>
+                            10:00 AM - 6:00 PM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map Container -->
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3849.3937!2d73.9574!3d15.2655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTXCsDE1JzU1LjgiTiA3M8KwNTcnMjYuNiJF!5e0!3m2!1sen!2sin!4v1234567890"
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo-section">
+                <img src="images/CA_LOGO_NEW_26.png" alt="CA Logo" style="height: 60px; margin-bottom: 1rem;">
+                <h3>Shashank Raikar & Co.</h3>
+                <p>Your trusted partner for GST and Income Tax compliance in Goa. Serving 100+ clients with precision and dedication.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#" data-page="home">Home</a></li>
+                    <li><a href="#" data-page="about">About</a></li>
+                    <li><a href="#" data-page="services">Services</a></li>
+                    <li><a href="#" data-page="testimonials">Testimonials</a></li>
+                    <li><a href="#" data-page="contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#" data-page="services">GST Compliance</a></li>
+                    <li><a href="#" data-page="services">Income Tax</a></li>
+                    <li><a href="#" data-page="services">Bookkeeping</a></li>
+                    <li><a href="#" data-page="services">Assessments</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="tel:+919730609972">+91 97306 09972</a></li>
+                    <li><a href="https://wa.me/918830568196">WhatsApp</a></li>
+                    <li><a href="mailto:office@sraikar.com">office@sraikar.com</a></li>
+                    <li>Margao, Goa 403601</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Shashank Raikar & Co. Chartered Accountants. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Page Navigation
+        const navLinks = document.querySelectorAll('.nav-link');
+        const pages = document.querySelectorAll('.page');
+        const mobileToggle = document.querySelector('.mobile-toggle');
+        const navLinksContainer = document.querySelector('.nav-links');
+        const navbar = document.querySelector('.navbar');
+
+        // Handle navigation
+        document.addEventListener('click', (e) => {
+            const link = e.target.closest('[data-page]');
+            if (link) {
+                e.preventDefault();
+                const targetPage = link.getAttribute('data-page');
+                
+                // Update active states
+                pages.forEach(page => page.classList.remove('active'));
+                navLinks.forEach(nav => nav.classList.remove('active'));
+                
+                // Show target page
+                document.getElementById(targetPage).classList.add('active');
+                
+                // Update active nav link
+                const activeNav = document.querySelector(`[data-page="${targetPage}"].nav-link`);
+                if (activeNav) activeNav.classList.add('active');
+                
+                // Close mobile menu
+                navLinksContainer.classList.remove('active');
+                
+                // Scroll to top
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        });
+
+        // Mobile menu toggle
+        mobileToggle.addEventListener('click', () => {
+            navLinksContainer.classList.toggle('active');
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Form submission
+        document.getElementById('contactForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+            e.target.reset();
+        });
+
+        // Smooth reveal animations on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all service cards and other elements
+        document.querySelectorAll('.service-card, .pillar-card, .testimonial-card, .service-detail-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.6s ease-out';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
