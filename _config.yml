@@ -1,0 +1,23 @@
+title: Shashank Raikar & Co.
+description: Chartered Accountants in Margao, Goa — GST, Income Tax, Compliance
+url: "https://www.sraikar.com"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:title/
+
+# Exclude files from build
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+
+# Defaults for blog posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

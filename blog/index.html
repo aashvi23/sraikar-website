@@ -1,0 +1,238 @@
+---
+layout: none
+title: Blog | Shashank Raikar & Co.
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog — GST, Tax & Compliance Insights | Shashank Raikar & Co.</title>
+    <meta name="description" content="Practical insights on GST compliance, Income Tax filing, ITC reconciliation, and tax planning for MSMEs by CA Shashank K. S. Raikar, Margao, Goa.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.sraikar.com/blog/">
+
+    <meta property="og:title" content="Blog — Shashank Raikar & Co.">
+    <meta property="og:description" content="GST, Tax & Compliance insights for MSMEs from a practicing CA in Goa.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.sraikar.com/blog/">
+
+    <meta name="google-site-verification" content="zlGoDPnVgYxkvh76OXv65vSI3N6pGFF5jUJi_LV8heg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --navy-dark: #0B1D32;
+            --navy-main: #16324F;
+            --navy-light: #2C4A6E;
+            --charcoal: #3A3F47;
+            --charcoal-light: #5A6069;
+            --teal: #1A7A6D;
+            --teal-light: #25A08E;
+            --teal-subtle: rgba(26, 122, 109, 0.08);
+            --cream: #F7F5F2;
+            --white: #FFFFFF;
+            --border-light: rgba(26, 122, 109, 0.12);
+            --font-serif: 'DM Serif Display', serif;
+            --font-sans: 'DM Sans', sans-serif;
+            --shadow-soft: 0 2px 16px rgba(11, 29, 50, 0.06);
+            --shadow-medium: 0 4px 24px rgba(11, 29, 50, 0.10);
+            --shadow-strong: 0 8px 40px rgba(11, 29, 50, 0.14);
+            --transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+            --radius: 10px;
+            --radius-lg: 16px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: var(--font-sans); color: var(--charcoal);
+            background: var(--cream); line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* ─── NAVBAR ─── */
+        .navbar {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+            background: rgba(255,255,255,0.97);
+            backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);
+            border-bottom: 1px solid var(--border-light);
+            transition: var(--transition);
+        }
+        .navbar.scrolled { box-shadow: var(--shadow-soft); }
+        .nav-container {
+            max-width: 1280px; margin: 0 auto; padding: 1rem 2rem;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .logo-container { display: flex; align-items: center; gap: 0.85rem; text-decoration: none; }
+        .logo-img { height: 46px; width: auto; }
+        .logo-text { font-family: var(--font-serif); font-size: 1.15rem; color: var(--navy-dark); line-height: 1.25; }
+        .logo-text span { font-family: var(--font-sans); font-size: 0.7rem; font-weight: 500; color: var(--charcoal-light); letter-spacing: 1.5px; text-transform: uppercase; }
+        .nav-links { display: flex; gap: 2rem; list-style: none; align-items: center; }
+        .nav-links a { color: var(--navy-main); text-decoration: none; font-weight: 500; font-size: 0.9rem; padding: 0.25rem 0; transition: var(--transition); position: relative; }
+        .nav-links a::after { content: ''; position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background: var(--teal); transition: var(--transition); border-radius: 1px; }
+        .nav-links a:hover::after, .nav-links a.active::after { width: 100%; }
+        .nav-links a:hover, .nav-links a.active { color: var(--teal); }
+        .mobile-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; }
+        .mobile-toggle span { width: 22px; height: 2px; background: var(--navy-dark); border-radius: 2px; }
+
+        /* ─── HERO ─── */
+        .blog-hero {
+            background: linear-gradient(160deg, var(--navy-dark) 0%, var(--navy-main) 60%, var(--navy-light) 100%);
+            padding: 7rem 2rem 3.5rem; text-align: center;
+            position: relative; overflow: hidden;
+        }
+        .blog-hero::before {
+            content: ''; position: absolute; top: -40%; right: -15%;
+            width: 500px; height: 500px;
+            background: radial-gradient(circle, rgba(26,122,109,0.12) 0%, transparent 65%);
+            border-radius: 50%;
+        }
+        .blog-hero .badge {
+            display: inline-block; padding: 0.35rem 1rem;
+            background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 50px; color: rgba(255,255,255,0.85);
+            font-size: 0.8rem; font-weight: 600; letter-spacing: 1.2px;
+            text-transform: uppercase; margin-bottom: 1rem; position: relative;
+        }
+        .blog-hero h1 {
+            font-family: var(--font-serif); font-size: clamp(2rem, 4vw, 3.2rem);
+            color: white; max-width: 700px; margin: 0 auto 0.75rem;
+            line-height: 1.2; position: relative;
+        }
+        .blog-hero p { color: rgba(255,255,255,0.75); font-size: 1.05rem; position: relative; max-width: 550px; margin: 0 auto; }
+
+        /* ─── POST CARDS ─── */
+        .posts-container {
+            max-width: 900px; margin: -2rem auto 0;
+            padding: 0 2rem 4rem; position: relative; z-index: 2;
+        }
+        .post-card {
+            background: var(--white); border-radius: var(--radius-lg);
+            padding: 2rem 2.25rem; margin-bottom: 1.25rem;
+            box-shadow: var(--shadow-soft); border: 1px solid var(--border-light);
+            transition: var(--transition); text-decoration: none; display: block;
+        }
+        .post-card:hover {
+            box-shadow: var(--shadow-strong); transform: translateY(-4px);
+            border-color: var(--teal);
+        }
+        .post-card .card-category {
+            display: inline-block; padding: 0.2rem 0.6rem;
+            background: var(--teal-subtle); color: var(--teal);
+            border-radius: 50px; font-size: 0.7rem; font-weight: 600;
+            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.75rem;
+        }
+        .post-card h2 {
+            font-family: var(--font-serif); font-size: 1.4rem;
+            color: var(--navy-dark); margin-bottom: 0.5rem; line-height: 1.3;
+        }
+        .post-card .card-excerpt {
+            color: var(--charcoal-light); font-size: 0.95rem;
+            line-height: 1.65; margin-bottom: 0.75rem;
+        }
+        .post-card .card-meta {
+            color: var(--charcoal-light); font-size: 0.82rem;
+        }
+        .post-card .card-meta time { font-weight: 600; color: var(--charcoal); }
+        .post-card .read-more {
+            color: var(--teal); font-weight: 600; font-size: 0.88rem;
+        }
+
+        .no-posts {
+            background: var(--white); border-radius: var(--radius-lg);
+            padding: 3rem; text-align: center; box-shadow: var(--shadow-soft);
+        }
+        .no-posts p { color: var(--charcoal-light); font-size: 1rem; }
+
+        /* ─── FOOTER ─── */
+        .footer {
+            background: var(--navy-dark); color: var(--white);
+            padding: 3rem 2rem 1.5rem;
+        }
+        .footer-inner { max-width: 900px; margin: 0 auto; text-align: center; }
+        .footer-inner p { color: rgba(255,255,255,0.5); font-size: 0.85rem; }
+        .footer-inner a { color: rgba(255,255,255,0.7); text-decoration: none; }
+        .footer-inner a:hover { color: var(--teal-light); }
+        .footer-links { margin-bottom: 1.5rem; }
+        .footer-links a { margin: 0 1rem; font-size: 0.9rem; }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                position: fixed; top: 76px; left: -100%; width: 100%;
+                height: calc(100vh - 76px); background: var(--white);
+                flex-direction: column; padding: 2rem; gap: 1.5rem;
+                box-shadow: var(--shadow-medium); transition: var(--transition);
+            }
+            .nav-links.active { left: 0; }
+            .mobile-toggle { display: flex; }
+            .posts-container { padding: 0 1.25rem 3rem; }
+            .post-card { padding: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo-container">
+                <img src="/images/CA_LOGO_NEW_26.png" alt="CA Logo" class="logo-img">
+                <div class="logo-text">Shashank Raikar & Co.<br><span>Chartered Accountants</span></div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/" class="active">Blog</a></li>
+            </ul>
+            <div class="mobile-toggle" onclick="document.querySelector('.nav-links').classList.toggle('active')">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="blog-hero">
+        <div class="badge">Insights & Updates</div>
+        <h1>From the Desk of CA Shashank Raikar</h1>
+        <p>Practical notes on GST, Income Tax, and compliance — from real client work in Goa</p>
+    </section>
+
+    <div class="posts-container">
+        {% if site.posts.size > 0 %}
+            {% for post in site.posts %}
+            <a href="{{ post.url }}" class="post-card">
+                <div class="card-category">{{ post.category | default: "Insights" }}</div>
+                <h2>{{ post.title }}</h2>
+                <p class="card-excerpt">{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
+                <div class="card-meta">
+                    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+                    · {{ post.author | default: "CA Shashank K. S. Raikar" }}
+                    <span class="read-more" style="float: right;">Read →</span>
+                </div>
+            </a>
+            {% endfor %}
+        {% else %}
+            <div class="no-posts">
+                <p>New posts coming soon. Follow us for GST and tax compliance insights.</p>
+            </div>
+        {% endif %}
+    </div>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-links">
+                <a href="/">Home</a>
+                <a href="/blog/">Blog</a>
+                <a href="mailto:office@sraikar.com">Email</a>
+                <a href="https://wa.me/918830568196">WhatsApp</a>
+            </div>
+            <p>&copy; {{ site.time | date: "%Y" }} Shashank Raikar & Co. Chartered Accountants. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            document.querySelector('.navbar').classList.toggle('scrolled', window.scrollY > 50);
+        });
+    </script>
+</body>
+</html>
