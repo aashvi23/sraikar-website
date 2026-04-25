@@ -7,6 +7,26 @@ category: GST
 tags: [GST, Scrap Trade, Fake Invoices, ITC, Section 130, Compliance, GSTR-2B]
 read_time: 10
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Fake Invoices in Scrap Trade: How GST Officers Track Them and Why Honest Buyers Pay the Price",
+  "author": {
+    "@type": "Person",
+    "name": "CA Shashank K. S. Raikar"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Shashank Raikar & Co.",
+    "url": "https://www.sraikar.com"
+  },
+  "datePublished": "2026-04-24",
+  "dateModified": "2026-04-24",
+  "url": "https://www.sraikar.com/blog/fake-invoices-scrap-trade-gst/",
+  "description": "Guide on How officers detect fake invoices and steps to protect oneself from dealing with such businesses. Written by CA Shashank Raikar, Margao, Goa."
+}
+</script>
 
 If you buy or sell MS scrap, non-ferrous scrap, plastic scrap, or any commodity where goods are routinely sourced from small, unregistered collectors, this one is for you.
 
