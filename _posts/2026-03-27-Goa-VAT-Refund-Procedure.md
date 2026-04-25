@@ -14,8 +14,8 @@
   },
   "datePublished": "2026-04-24",
   "dateModified": "2026-04-24",
-  "url": "https://www.sraikar.com/blog/your-post-url/",
-  "description": "Your meta description here"
+  "url": "https://www.sraikar.com/blog/Goa-VAT-Refund-Procedure/",
+  "description": "Shashank Raikar & Co. is a Margao-based CA firm serving 100+ businesses across Goa. We specialise in GST compliance, income tax filing, TDS, bookkeeping, and assessment representation. Led by CA Shashank K. S. Raikar, our team of 5 handles end-to-end compliance for traders, manufacturers, and service businesses across South Goa. On-time filings, personal attention, and honest advice.e"
 }
 </script>
 ---
