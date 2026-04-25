@@ -17,7 +17,8 @@
   "url": "https://www.sraikar.com/blog/your-post-url/",
   "description": "Your meta description here"
 }
-</script>---
+</script>
+---
 layout: post
 title: "Goa VAT Refund Procedure: Complete Step-by-Step Guide (March 2026)"
 date: 2026-03-27
