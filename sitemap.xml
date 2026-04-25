@@ -4,19 +4,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.sraikar.com/</loc>
-    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.sraikar.com/blog/</loc>
-    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
-  {% for post in site.posts %}
   <url>
-    <loc>{{ post.url | absolute_url }}</loc>
-    <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+    <loc>https://www.sraikar.com/blog/fake-invoices-scrap-trade-gst/</loc>
     <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
   </url>
-  {% endfor %}
+  <url>
+    <loc>https://www.sraikar.com/blog/Goa-VAT-Refund-Procedure/</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
