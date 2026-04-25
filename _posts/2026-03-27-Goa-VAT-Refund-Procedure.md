@@ -1,4 +1,23 @@
----
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Your Post Title Here",
+  "author": {
+    "@type": "Person",
+    "name": "CA Shashank K. S. Raikar"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Shashank Raikar & Co.",
+    "url": "https://www.sraikar.com"
+  },
+  "datePublished": "2026-04-24",
+  "dateModified": "2026-04-24",
+  "url": "https://www.sraikar.com/blog/your-post-url/",
+  "description": "Your meta description here"
+}
+</script>---
 layout: post
 title: "Goa VAT Refund Procedure: Complete Step-by-Step Guide (March 2026)"
 date: 2026-03-27
