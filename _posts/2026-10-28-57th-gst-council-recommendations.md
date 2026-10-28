@@ -1,0 +1,316 @@
+---
+layout: post
+title: "57th GST Council Decoded: What Is Now Notified, and What Is Still on Paper"
+date: 2026-10-28
+author: "CA Shashank K. S. Raikar"
+category: GST
+tags: [GST, GST Council, 57th GST Council, Notification 05/2026, Notification 07/2026, Circular 258/2026, Refund, ITC, Section 74, E-invoicing, Registration, Scrap Trade, Plastic Scrap, E-waste, RCM, TDS, Compliance]
+read_time: 14
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "57th GST Council Decoded: What Is Now Notified, and What Is Still on Paper",
+  "author": {
+    "@type": "Person",
+    "name": "CA Shashank K. S. Raikar"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Shashank Raikar & Co.",
+    "url": "https://www.sraikar.com"
+  },
+  "datePublished": "2026-10-28",
+  "dateModified": "2026-10-28",
+  "url": "https://www.sraikar.com/blog/57th-gst-council-recommendations/",
+  "description": "A practitioner's reading of the 57th GST Council recommendations after the notifications of 26 and 27 October 2026 and Circulars 257 to 264: RCM and 2% TDS on plastic, e-waste, tyre and cooking oil scrap from 1 November, refunds, registration, notices, pre-deposit, e-invoicing on RCM, and what is still pending. Written by CA Shashank Raikar, Margao, Goa."
+}
+</script>
+
+The 57th GST Council met on 8 October. On 26 and 27 October, CBIC put out the first set of instruments: a batch of notifications and eight circulars. So the question has changed. It's no longer "what did the Council say?" It's "which of it is law now, from when, and which parts are still waiting for Parliament?"
+
+I've gone through the gazette text of every notification (Notification 05/2026 alone runs to over 70 pages of rule changes and new forms) and all eight circulars. This post sorts the Council's list into what's notified and what isn't, and flags what I'd act on this week. It's written for business owners and finance heads, and for colleagues who'll be answering the same questions from clients.
+
+The short version. Reverse charge and 2% TDS on plastic, e-waste, tyre and used cooking oil scrap start this Sunday, 1 November. So do most of the refund and registration reforms. The headline items (no arrest, the ₹10,000 notice floor, the 5% penalty, the e-way bill limits, the blocked credit changes) need the Act to be amended, and none of that has happened yet.
+
+## What came out on 26 and 27 October
+
+One numbering trap first. There are two different "Notification 04/2026" this week. One is in the Central Tax series (e-invoicing), the other in the Central Tax (Rate) series (reverse charge on scrap). I've written "CT" and "CT(R)" throughout to keep them apart.
+
+Dated 26 October:
+
+- **Notification 03/2026-CT** brings sections 153 to 155 of the Finance Act, 2026 into force from 1 November 2026. These are Budget amendments to the CGST Act, covered further down.
+- **Notification 04/2026-CT** extends e-invoicing to RCM purchases from unregistered persons and to import of services, from 1 January 2027.
+- **Notification 05/2026-CT** is the CGST (Amendment) Rules, 2026. It carries most of the Council's refund, registration and rule 86A changes. Its default start date is 1 November 2026, with some parts from 1 December 2026, 1 January 2027 and 1 April 2027.
+- **Circulars 257 to 264/2026-GST** cover registration (257), demand, adjudication and appeal (258), pre-deposit (259), ISD (260), section 17(4) for banks and NBFCs (261), demo vehicles (262), export payments (263) and the omission of rule 96(10) (264).
+
+Dated 27 October, all from 1 November 2026:
+
+- **Notification 04/2026-CT(R)** (with matching IGST and UTGST notifications) puts used cooking oil, plastic scrap, tyre scrap and e-waste under reverse charge when supplied by an unregistered person to a registered person.
+- **Notification 06/2026-CT** takes suppliers of these goods, and of metal scrap, out of the registration exemption for persons whose supplies are wholly under reverse charge.
+- **Notification 07/2026-CT** extends GST TDS under section 51 to registered-to-registered supplies of these goods and metal scrap.
+- **Notifications 02, 03 and 05/2026-CT(R)** cover the rate items: sea-weed based bio-stimulants and retreaded tractor tyres at 5%, psyllium seeds (isabgol) exempt, and a revised "nominated agency" definition for the export-linked concession.
+
+## Where things stand on 28 October
+
+**Now notified**
+
+| Item | Reference | From |
+|---|---|---|
+| RCM on used cooking oil, plastic, tyre and e-waste scrap from unregistered suppliers | 04/2026-CT(R) | 1 Nov 2026 |
+| Registration exemption withdrawn for suppliers of these goods and metal scrap | 06/2026-CT | 1 Nov 2026 |
+| 2% TDS on registered-to-registered supplies of these goods and metal scrap | 07/2026-CT | 1 Nov 2026 |
+| Refund acknowledgement in 10 days, deemed if the officer is silent | Rule 90(2), 90(3A) | 1 Nov 2026 |
+| Provisional refund order generated by the portal within 3 working days | Rule 91(2); s. 54(6) via Finance Act 2026 | 1 Nov 2026 |
+| Cash ledger refund sanctioned by the portal | Rule 92(1B) | 1 Nov 2026 |
+| Input services in the inverted duty refund formula | Rule 89(5) | ITC availed on or after 1 Nov 2026 |
+| 1.5 times like-goods cap on zero-rated turnover removed | Rule 89(4)(C) | 1 Nov 2026 |
+| New RFD-01, invoice-level details instead of scans | Rule 89(2), FORM RFD-01 | 1 Dec 2026 |
+| E-invoice schema 1.2 (RCMDOM, RCMIMP) and invoice-level GSTR-7A | 05/2026-CT | 1 Jan 2027 |
+| E-invoicing on RCM purchases and import of services | 04/2026-CT | 1 Jan 2027 |
+| Capital goods ITC in refund, one-sixtieth a month | Rule 89(4)(G) | ITC availed on or after 1 Apr 2027 |
+| Objection and hearing before credit ledger blocking | Rule 86A, DRC-26/27/28 | 1 Apr 2027 |
+| Registration amendments approved automatically, except principal place | Rule 19 | 1 Nov 2026 |
+| Cancellation on application approved automatically (with conditions) | Rule 20 | 1 Nov 2026 |
+| Portal suspends, cancels and restores for non-filing or no bank details | Rules 21A, 22, 23A | 1 Apr 2027 |
+| E-commerce sellers using the operator's warehouse in another State | Rule 14B | 1 Nov 2026 |
+| Guidelines on notices, orders, hearings and appeals | Circular 258/04/2026-GST | 26 Oct 2026 |
+
+**Still pending**
+
+These need an amendment to the CGST or IGST Act, a separate notification, or both:
+
+- Removal of arrest (section 69), the ₹5 crore prosecution threshold and the trimming of section 132
+- No show cause notice below ₹10,000, the 5% reduced penalty, removal of the ₹10,000 minimum penalty, and penalty as a "charge"
+- Section 125 penalty down to ₹10,000, the ₹40 crore pre-deposit cap, and section 115 interest
+- The validation clause for multi-year notices
+- The section 17(5) changes and limited credit for same-line services
+- The e-way bill interception limits (sections 68, 129 and 130)
+- The section 54 amendments: refund of input services and capital goods under section 54(3), fully system-based processing, and the ₹1,000 threshold applied to the combined amount
+- Aligning sections 16, 37 and 39 with the section 16(4) time limit, and clarifying e-commerce operator liability under section 9(5)
+- Transfer of title in IPR treated as a supply of services (Schedule II)
+- On the IGST side: export of services between distinct persons (section 2(6)(v)), omission of section 13(3)(a) for services on goods supplied by foreign clients, and the SEZ/FTWZ explanation to section 16(1)
+- The IMS and return correction rules (60(6A), 61(1A), 61(1B), 86C, 86D), still out for consultation
+- The late fee waiver and the ARQP scheme
+- The section 16(2)(c) committee, which is still a study
+
+## Scrap and waste: live from Sunday
+
+This is the one my clients need to act on before the weekend. The 57th Council copied the 2024 metal scrap model to four more categories, and the notifications came out on 27 October.
+
+**Reverse charge.** Notification 04/2026-CT(R) adds four entries to the RCM list in Notification 4/2017-CT(R). When an unregistered person supplies one of these goods to a registered person, the buyer pays the tax:
+
+- used cooking oil (heading 1518)
+- waste and scrap of plastics (3915)
+- waste and scrap of tyres (4004)
+- electrical and electronic waste and scrap (8549)
+
+Watch the tyre entry. Heading 4004 covers rubber waste generally, but the RCM entry is limited to "waste and scrap of tyres". Classify carefully.
+
+**Registration.** Notification 5/2017-CT exempts from registration a person whose supplies are wholly taxable under reverse charge. Since 2024 that exemption hasn't applied to metal scrap suppliers. Notification 06/2026-CT now extends the carve-out to these four categories. So a kabadiwala dealing in plastic or e-waste scrap has to register once he crosses the section 22 threshold, even though his buyers pay the tax under RCM.
+
+**TDS.** Notification 07/2026-CT substitutes clause (d) of Notification 50/2018-CT. Any registered person receiving these goods, or metal scrap (Chapters 72 to 81), from another registered person now deducts TDS under section 51: 1% CGST plus 1% SGST, or 2% IGST. The rest comes from section 51 itself:
+
+- No deduction where the total value of supply under a contract doesn't exceed ₹2.5 lakh (the proviso to section 51(1)).
+- TDS is computed on the value excluding the GST shown on the invoice (the Explanation).
+- The buyer needs a separate TDS registration in REG-07 (section 24(vi)), files GSTR-7 by the 10th of the following month, and issues the supplier a TDS certificate. The Council's FAQs confirm the framework simply mirrors metal scrap.
+
+Take Naik Traders in Mapusa buying ₹10 lakh of plastic scrap from a registered supplier under one contract. The TDS is ₹20,000 on the pre-GST value. The supplier gets ₹20,000 less in the bank and sees it as a credit in his cash ledger. A one-off ₹2 lakh purchase under its own contract attracts no TDS.
+
+What I'd do before Sunday if you buy any of these goods:
+
+- Get TDS registration in place, if you don't already have it for metal scrap.
+- Split your supplier list into registered and unregistered. Registered suppliers mean TDS. Unregistered ones mean RCM and a self-invoice.
+- Issue the self-invoice within 30 days of receiving the goods (rule 47A), and pay the RCM tax in cash.
+- Tell your registered suppliers in writing that TDS starts from 1 November, so the short payment doesn't become a dispute.
+
+## Refunds: most of it is live from 1 November
+
+From 1 November, the officer has 10 days, not 15, to acknowledge a refund claim or issue a deficiency memo. If neither happens, the portal treats the claim as acknowledged on the date it was filed, and the 60-day clock under section 54(7) runs from that date (rule 90(3A)).
+
+For zero-rated and inverted duty claims, the portal itself generates the provisional order in RFD-04 within three working days of acknowledgement, based on its own risk evaluation. The officer doesn't need to revalidate it (rule 91(2)). The Finance Act, 2026 amendment to section 54(6), also live from 1 November, gives inverted duty claims the same statutory footing for provisional refund that zero-rated claims already had. Cash ledger refunds are sanctioned by the portal in RFD-06 after adjusting outstanding dues (rule 92(1B)).
+
+Exporters of goods also lose the 1.5 times like-goods cap on zero-rated turnover in rule 89(4)(C) from 1 November. The Karnataka High Court had already struck it down in *Tonbo Imaging* (2023), so this mostly ends an old fight.
+
+The Council also recommended amending section 54 itself for system-based processing, and that hasn't happened yet. For now, portal-generated orders rest on the Rules and on the amended section 54(6). That's enough for Phase 1, in my view. Phase 2, which has the system acknowledging and sanctioning claims in full, will need the Act changed.
+
+Two things in the new rules aren't in the press release, and I'd flag both.
+
+**A new declaration.** From 1 December, an ITC refund or a refund on zero-rated supply with payment of tax needs a declaration that you haven't been prosecuted for evasion above ₹2.5 crore in the preceding five years (rule 89(2)(o)). Most of my clients won't have a problem. But it's a new item on the form, and a wrong declaration is worse than none.
+
+**A fixed debit order.** From 1 November, when you claim an ITC refund, the credit ledger is debited IGST first, then CGST and SGST equally (rule 89(3)). Check that your claim working matches before you file.
+
+The new RFD-01 takes effect from 1 December. Invoice details go into the form in a system-readable format, which replaces the scanned uploads.
+
+### Input services and capital goods
+
+Input services first. The substituted rule 89(5) puts "eligible input services" into Net ITC for the inverted duty formula. These are input services on which credit is availed on or after 1 November 2026. Credit already in your ledger doesn't count.
+
+Don't read this as a refund for service-heavy businesses. The Council's FAQs make clear that inversion is still tested by comparing the rate on inputs (goods) with the rate on output. A higher rate on input services alone doesn't create an inverted duty structure. Input services only add to Net ITC once the goods-level inversion exists. Credit blocked under section 17(5) stays out, and rule 42 and 43 reversals still apply.
+
+There's a legal wrinkle here, and it covers capital goods as well. The Council recommended amending section 54(3) of the Act to allow refund of credit on input services and capital goods in inverted duty cases. That amendment isn't one of the Finance Act, 2026 sections switched on by Notification 03, so for now the rule has moved ahead of the Act. In *VKC Footsteps*, the Supreme Court read section 54(3) as limiting inverted duty refund to inputs that are goods, and upheld the old rule 89(5) on that basis.
+
+The real risk isn't an audit para. It's a demand two or three years from now to recover the refund as erroneous under section 74A, with interest. I don't expect the department to attack its own rule. But I'd claim the input services refund with clean papers, keep the claim working on file, and watch for the section 54(3) amendment in the next Finance Bill.
+
+The capital goods leg in inverted duty claims doesn't start until 1 April 2027, so there's time for the Act to catch up first. For zero-rated claims, the capital goods leg is on firmer ground in my reading. Section 54(3) already allows refund of unutilised credit on zero-rated supplies without limiting it to inputs. The exclusion of capital goods sat in the rule, and the rule has now changed.
+
+Capital goods come in from 1 April 2027, for both zero-rated claims (Net ITC in rule 89(4)(B)) and inverted duty claims (rule 89(5)). The attribution formula is in rule 89(4)(G). It isn't a straight monthly refund of one-sixtieth, which is how a lot of early commentary read it. One-sixtieth of the eligible credit on the capital goods, for each month in the claim period, gets **added to Net ITC**, less any reversals for those months. Then the usual formula applies. Credit blocked under section 17(5) is excluded.
+
+Take a manufacturer in Verna on an inverted duty structure. He buys a machine in May 2027 with ₹9 lakh of GST credit. For his June 2027 claim, ₹15,000 (₹9 lakh × 1/60) is added to Net ITC. If his inverted rated turnover is 80% of adjusted total turnover, that ₹15,000 raises his maximum refund by about ₹12,000, not ₹15,000, subject to the balance in his credit ledger.
+
+Readers who know the old rule 89(5) may expect a smaller figure. Since Notification 14/2022-CT, the old formula scaled the tax payable on the inverted supply by the ratio of Net ITC to credit on inputs and input services, so a higher Net ITC also raised the deduction. The substituted formula drops that ratio. It deducts the tax payable on the inverted supply as a flat figure, so the extra Net ITC flows through at the turnover ratio alone.
+
+From 1 April 2027 he also has to declare that the machine hasn't been sold or removed and is being used for the relevant supplies (rule 89(2)(p)).
+
+## Notices and appeals: Circular 258 is the one to read
+
+The ₹10,000 notice floor and the 5% reduced penalty need the Act amended, so they're still pending. When the floor does come, the Council's FAQs say it's tested on total tax across CGST, SGST, IGST and cess, including wrongly availed credit, and excluding interest, late fee and penalty. What has arrived is Circular 258/04/2026-GST, an 18-page set of guidelines for officers on how to draft notices, hold hearings and write orders. Section 168(1) circulars bind the department. This one is going straight into my reply templates.
+
+The paragraphs I'll be quoting:
+
+- **Para 5.3.** Section 74 or 74A(5)(ii) can't be invoked merely because tax wasn't paid, or because scrutiny threw up a discrepancy. The notice has to show specific evidence of intent to evade. The circular leans on the Supreme Court's decision in *G.R. Infra Project Ltd. v. State of Madhya Pradesh* (19 August 2026, as cited in the circular): a notice that just repeats "fraud, wilful misstatement or suppression" without the facts behind it doesn't meet the test, and a defective notice can't be fixed later.
+- **Para 5.5.** A second notice on the same facts for a later period shouldn't invoke fraud again unless there are new grounds. Later periods should go under section 73 or 74A(5)(i).
+- **Para 6.** Where a notice proposes demands under both 73 and 74, the split and the reasons must be shown separately.
+- **Para 7.** No parallel CGST and SGST proceedings on the same subject, citing *Armour Security*.
+- **Para 10.1.** A maximum of four hearing opportunities, a virtual hearing option, the order preferably within a month of the last hearing, and a fresh hearing if the officer is transferred.
+- **Paras 11.5 and 11.6.** The order must deal with each submission, so "reply has been considered" isn't good enough. It can't go beyond the amount or grounds in the notice (section 75(7)).
+- **Para 15.1.** An appeal shouldn't be rejected on merits at the registration stage.
+
+Take a Margao trader who got an ASMT-10 for an ITC mismatch, explained it, and then got a DRC-01 under section 74 with no allegation beyond the mismatch itself. Para 5.3 is now the first ground in his reply.
+
+Para 17 says officers must not cite these guidelines in notices or orders. It says nothing about taxpayers.
+
+One line worries me, though. Para 4.5 tells officers that where a notice spans more than one financial year, "efforts should be made" to show the demand year-wise. Put that next to the validation clause the Council wants for multi-year notices that courts have struck down. The department doesn't look like it plans to stop issuing them. If you've won, or are arguing, on the multi-year point, keep that case alive.
+
+### Pre-deposit: Circular 259
+
+Circular 259/05/2026-GST settles a few arguments I've had with officers:
+
+- The admitted amount is what you choose not to contest when you file the appeal. The 10% pre-deposit is on the rest.
+- Before the Tribunal, the 10% is computed on the liability the first appellate authority confirmed and you're disputing, not on the original demand.
+- If you win, the pre-deposit refund can't be held back just because the department plans to appeal, unless the order is stayed. File it in RFD-01 as a refund "on account of order".
+- Interest under section 115 runs separately from the date of each payment, first appeal and Tribunal.
+
+## Registration: faster, with more done by the portal
+
+Notification 05 rewrites rules 19 to 23. From 1 November:
+
+- Amendments to any particular other than the principal place of business are approved on submission, once the portal validates them (rule 19(4)). A change to the principal place goes to the officer, who has 15 days to act, failing which it's deemed approved. For rule 14A registrants, even the principal place change is automatic from 1 December.
+- On a cancellation application, registration is suspended straight away (rule 20(4)). The portal cancels it without an officer if returns are filed and dues are paid, and one of two conditions is met. Either your output tax on supplies to registered persons never crossed ₹2.5 lakh in any month, or, in the gazette's words, you filed GSTR-10 "within 3 days from the due date" of the returns for the remaining period (rule 20(5)).
+- E-commerce sellers can register in another State against an operator's warehouse there (rule 14B). This is only for sellers whose monthly output tax on supplies to registered persons stays within ₹2.5 lakh, and only with the operator's consent, which has to come within seven working days. Biometric Aadhaar authentication and physical verification happen in your home State.
+
+From 1 April 2027 the portal takes over non-filing cases. Miss six monthly returns, two quarterly returns, or fail to give bank details under rule 10A, and the portal suspends your registration (rule 21A). It cancels automatically if you don't comply within 30 days (rule 22(5)), and restores it automatically once you do, if you apply within 180 days (rule 23A).
+
+Circular 257/03/2026-GST is the applicant-side guide: a document checklist (Annexure II), FAQs (Annexure I), and a standard consent letter format for premises owned by someone else (Annexure VI). For the many Goa clients who run their business from a parent's or a relative's property, use that format as it is. Don't draft your own.
+
+Two lines from Circular 257 that will come up:
+
+- To leave rule 14A, you file REG-32, but only after filing a return for at least one tax period.
+- If your earlier registration on the same PAN was suspended or cancelled by the department for non-filing, file all its pending returns, including GSTR-10, before you apply afresh.
+
+The ₹2.5 lakh test in rules 14A, 14B and 20 is output tax on supplies to registered persons. The press release, and even the FAQ in Circular 257, describe it loosely as ITC "passed on". Go by the rule.
+
+## Input tax credit
+
+The section 17(5) changes (outdoor catering, employee health and life insurance, telecom towers, pipelines outside the factory, free samples, goods destroyed on expiry) and the same-line-of-business credit for catering, hotels and gyms all need the Act amended. They're still pending. Don't reclaim anything yet.
+
+One ITC point has moved, through a circular. Circular 262/08/2026-GST withdraws para 4.6 of Circular 231/25/2024-GST. A dealer working on the agency model, where the OEM sells to the customer directly, can now take credit on demo vehicles just like a traditional dealer. The circular rests this on the words "such motor vehicles" in section 17(5)(a)(A). There's a good argument that it's clarificatory, which helps anyone with a pending dispute on the point.
+
+Watch the clock, though. Credit on FY 2025-26 invoices has to be taken by 30 November 2026, or by the date you file the FY 2025-26 annual return if that's earlier (section 16(4)). Earlier years are past the deadline.
+
+Circular 260 (ISD) and Circular 261 (section 17(4) for banks and NBFCs) are narrower. If you have multiple registrations in a State, Circular 260 clarifies that each one receiving input service invoices for distinct persons needs its own ISD registration.
+
+The honest buyer issue under section 16(2)(c) is still with the Committee of Officers. Nothing has been notified.
+
+## Returns and e-invoicing
+
+The IMS and GSTR-3B correction rules from the April 2027 return aren't in Notification 05. That mechanism is still out for public consultation.
+
+What is notified is the e-invoicing extension. From 1 January 2027, taxpayers already on e-invoicing (aggregate turnover above ₹5 crore) must generate an IRN for RCM purchases from unregistered persons and for import of services (Notification 04/2026-CT). Notification 05/2026-CT moves the e-invoice schema in FORM INV-01 to version 1.2 from the same date, with two new supply type codes: RCMDOM and RCMIMP.
+
+For scrap buyers this matters a lot. A ferrous scrap buyer in Kundaim turning over ₹15 crore, who buys metal scrap from unregistered kabadiwalas under RCM, issues a self-invoice for every purchase. From January, each of those self-invoices needs an IRN.
+
+The stakes are higher than a compliance tick-box. Under rule 48(5), an invoice from a notified person that isn't issued in the e-invoice manner "shall not be treated as an invoice". The self-invoice is the document for the RCM credit, so a self-invoice without an IRN puts that credit at risk.
+
+There's also a timing squeeze. The self-invoice has to be issued within 30 days of receiving the goods (rule 47A). Separately, GSTN's advisory bars taxpayers with turnover of ₹10 crore and above from reporting e-invoices older than 30 days on the IRP. Whether that limit will be applied to RCM self-invoices isn't clear yet, but plan as if it will. Talk to your billing software provider now, not in the last week of December.
+
+Two smaller items from Notification 05. GSTR-7A, the TDS certificate, moves to invoice-level details from 1 January 2027, which matters to every scrap supplier receiving TDS. And the entries in the GSTR-9 and 9C instructions that applied to FY 2023-24 and 2024-25 now extend to FY 2025-26 onwards. Read those instructions before you start the December annual returns.
+
+## On the road: e-way bills
+
+Nothing has changed yet. The limits on interception (specific intelligence, Joint Commissioner approval, no action in transit States, no confiscation of goods in transit) need sections 68, 129 and 130 amended.
+
+Read the proposal for what it is. It narrows the road regime but doesn't dismantle it. The Council's FAQs say goods in transit will be dealt with only under section 129 read with section 68, and section 130 confiscation will apply only to cases other than goods in transit. So section 129 detention, and the penalty you pay to get the goods released, stays. It just moves to the officers of the supplier's or recipient's State. The exception stays too: no e-way bill, or no document showing origin or destination, and the goods can be stopped anywhere. Keep the invoice, e-way bill and weighbridge slip in the cabin, every trip.
+
+On the portal side, GSTN's advisory of 29 July 2026 put the mandatory Ship-To GSTIN requirement and the voluntary e-way bill closure facility on hold, with no new date yet. If you prepared your billing for the 1 August rollout, keep those changes ready, but you don't need them today.
+
+## Arrest and prosecution
+
+Also still pending, since section 69 can only be omitted by Parliament. So it helps to be clear about what the law is today.
+
+Since the Finance Act, 2023, prosecution starts above ₹2 crore of tax evaded, credit wrongly availed or refund wrongly taken. The ₹1 crore floor survives only for issuing invoices without supply (section 132(1)(b)). Arrest under section 69 is narrower still. It's available only for offences under clauses (a) to (d) of section 132(1) that are punishable under clause (i) or (ii), which means above ₹2 crore, or for repeat offences under section 132(2).
+
+For a scrap buyer, the usual exposure is clause (c), taking credit on a fake invoice. That sits in the ₹2 crore band today, and the Council wants it moved to ₹5 crore.
+
+The Council's FAQs add detail the press release didn't have. Above ₹10 crore the maximum would be five years, and between ₹5 crore and ₹10 crore it would be two years. Courts could impose a fine alone, and the six-month minimum would go.
+
+My view from the first version stands. The narrowed section 132(1)(c) still squarely covers credit taken without goods or without an invoice. Advocate Suneel Kumar Kota, writing on TaxGuru, expects more reliance on recovery, interest, penalty and attachment under section 83. If you buy scrap, my earlier post on [fake invoices in the scrap trade](/blog/fake-invoices-scrap-trade-gst/) is still the checklist.
+
+## Exporters: two circulars, and two IGST changes still to come
+
+**Circular 264/10/2026-GST** is on rule 96(10). The Supreme Court held in *Goodluck India Ltd.* (6 August 2026) that because the omission of rule 96(10) carried no saving clause, it applies to proceedings pending on the date of omission. CBIC accepted the judgment by an Office Memorandum of 24 August 2026, and the circular now tells officers to deal with pending proceedings accordingly. The same treatment applies to rules 89(4A) and 89(4B).
+
+The circular's wording, "effective retrospectively from 23.10.2017", reads wider than the judgment, and a circular can't change the date in the notification that omitted the rule. In practice it binds officers in your favour on open matters. If you have a pending recovery notice or appeal on rule 96(10), reply now citing both. But a demand that became final and was never challenged doesn't reopen on its own.
+
+**Circular 263/09/2026-GST** is on export payments. For export of services, payment received in an SNRR account, an INR Nostro account or a similar repatriable rupee account meets the IGST Act condition. So does a set-off of export receivables against import payables made as RBI permits. For export of goods, the realisation period is whatever RBI's master direction allows, including extensions. Rule 96B itself speaks of a write-off by RBI. The circular extends that to a write-off by the AD bank. That's fine to rely on, but know that it rests on the circular, not the rule.
+
+Still pending on the IGST side is the omission of section 13(3)(a). Today, repair or testing done in India on goods a foreign client sends in takes place of supply in India, so it isn't an export. Once the clause goes, the default rule applies (location of the recipient), and the work can qualify as export of services. A Verna unit that repairs equipment for an overseas customer should watch for this. The SEZ/FTWZ explanation to section 16(1) and the branch export change are also still awaited.
+
+## Also from 1 November: the Budget changes
+
+Notification 03 switches on sections 153 to 155 of the Finance Act, 2026. These were in the February Budget, not the 57th Council, but they start the same day. From the text of the Finance Act, 2026:
+
+- **Post-sale discounts (section 15(3)(b)).** A discount given after supply can reduce taxable value if the supplier issues a credit note and the buyer reverses the matching ITC. The old requirement of a prior agreement linked to specific invoices goes.
+- **Credit notes (section 34(1)).** They expressly cover such discounts.
+- **Provisional refund (section 54(6)).** It now covers inverted duty claims.
+- **₹1,000 threshold (section 54(14)).** It no longer applies to refunds on goods exported with payment of tax.
+
+For distributors and dealers who give quarterly or target-based discounts, this is the change to plan for. It works only if the supplier issues the credit note and the buyer actually reverses the credit, so build that confirmation into your credit note process.
+
+Two cautions. The amending sections carry no transitional provision, so it isn't clear how discounts on supplies made before 1 November will be treated. Don't assume the new rule reaches back. And the old cut-off still applies: credit notes for FY 2025-26 supplies must be declared by 30 November 2026, or by the FY 2025-26 annual return if that's filed earlier (section 34(2)).
+
+## What I'd do this week
+
+1. **Scrap and waste buyers, before Sunday:** get TDS registration, sort suppliers into registered (TDS) and unregistered (RCM), and tell registered suppliers that deduction starts from 1 November. Check that your unregistered suppliers of plastic, tyre, e-waste and cooking oil scrap know they now have to register once they cross the threshold.
+2. **Before 1 November,** set up a way to tag input service invoices in your books so you can show what credit was availed on or after that date. You'll need it for the inverted duty claim. From 1 April 2027, keep a month-wise register of capital goods credit as well.
+3. **If you're on e-invoicing and buy under RCM,** get IRN generation for self-invoices working before 1 January 2027.
+4. **Pull every pending section 74 notice** and check it against paras 5.3 to 6 of Circular 258. Rework replies that haven't been filed yet.
+5. **Pending appeals and pre-deposit refunds:** apply Circular 259, especially the point that a department appeal alone doesn't block your refund.
+6. **Exporters with open rule 96(10) proceedings:** reply citing Goodluck India and Circular 264.
+7. **Before 30 November:** take any FY 2025-26 demo vehicle credit under Circular 262, and declare FY 2025-26 credit notes.
+8. **Don't act yet** on the section 17(5) relief, the ₹10,000 notice floor, the 5% penalty or the e-way bill limits. None of it is law.
+
+## Key takeaways
+
+- The first instruments are out: Notifications 03 to 07/2026-CT, Notifications 02 to 05/2026-CT(R) and Circulars 257 to 264/2026-GST, dated 26 and 27 October 2026.
+- Reverse charge and 2% TDS on plastic, e-waste, tyre and used cooking oil scrap start on 1 November 2026, along with withdrawal of the registration exemption for their suppliers. The ₹2.5 lakh per-contract TDS threshold comes from section 51 itself.
+- Refund reforms are mostly live from 1 November. The capital goods refund adds one-sixtieth a month to Net ITC from 1 April 2027. It isn't a straight monthly refund. The input services and capital goods refunds in inverted duty cases are ahead of the section 54(3) amendment.
+- Circular 258 gives you real grounds to fight a mechanical section 74 notice. It also shows the department expects to keep issuing multi-year notices.
+- Everything that needs the Act amended is still pending: arrest, prosecution, the notice floor, penalties, section 17(5), e-way bill limits and the validation clause. Until then, prosecution generally starts above ₹2 crore and arrest is limited to the bands above that.
+
+Sources:
+CBIC, Notification Nos. 03/2026, 04/2026 and 05/2026-Central Tax and Circular Nos. 257/03/2026-GST to 264/10/2026-GST, all dated 26 October 2026; Notification Nos. 02/2026 to 05/2026-Central Tax (Rate) and 06/2026 and 07/2026-Central Tax, dated 27 October 2026.
+[PIB release on the 57th GST Council recommendations, 8 October 2026](https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2320934&reg=48&lang=1), read with the Council's outcomes note.
+[GST Council, FAQs on the recommendations of the 57th meeting](https://www.gstcouncil.gov.in/sites/default/files/2026-10/faqs_on_recommendations_made_in_57th_gst_council_meeting.pdf).
+The Finance Act, 2026 (No. 4 of 2026), sections 153 to 155, Gazette of India, 30 March 2026.
+[VAT Update, on GSTN Advisory 668 of 29 July 2026 putting the Ship-To GSTIN and e-way bill closure changes on hold](https://www.vatupdate.com/2026/08/05/india-gstn-puts-e-way-bill-e-invoice-api-enhancements-on-hold/).
+[Jurishour, on CBIC's Office Memorandum of 24 August 2026 accepting Goodluck India](https://www.jurishour.in/notification/gst-refund-restriction-pending-proceedings-absence-saving-clause/).
+[ITAT Online, on the Finance Act, 2023 changes to section 132](https://itatonline.org/digest/articles/analysis-of-changes-in-gst-act-2017-under-budget-2023-24-main-gst-changes-in-budget-2023/).
+[Taxmann, on GSTN's 30-day e-invoice reporting limit](https://www.taxmann.com/post/blog/time-limit-of-30-days-for-reporting-e-invoice-on-irp-portal-for-taxpayers-with-aato-of-10-crores-and-above-gstn-update/).
+[TaxGuru, 57th GST Council meeting: 39 recommendations (Suneel Kumar Kota, Advocate)](https://taxguru.in/goods-and-service-tax/57th-gst-council-meeting-39-recommendation-means-taxpayers.html).
+
+---
+
+*This post is written for general awareness and shouldn't be read as legal or tax advice on any specific situation. It reflects notifications and circulars issued up to 27 October 2026. Items described as pending have no force of law until given effect through amendments or notifications. Case law is referred to as cited in the CBIC circulars. Please verify the current notified position before acting, and consult a chartered accountant with the full details of your case.*
